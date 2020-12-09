@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#intro {
+    background: url("image/cover_bg_1.jpg");
+    position: relative;
+}
+
+.overlay {
+    background: rgba(255, 140, 0 , 0.9);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.overlay-fix {
+    position: relative;
+}
+header {
+    background: rgb(51, 6, 51);
+    color:white;
+    padding:20px;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 940px;
+    margin: auto;
+    padding:40px;
+    
+}
+
+section {
+    padding-top:90px;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-1 {
+    flex:1 0;
+}
+
+.flex-13 {
+    flex:0 0 33.33%;
+    min-width: 33.33%;
+}
+
+.flex-23 {
+    flex:0 0 66.67%;
+    min-width: 66.67%;
+}
+
+
+.icon {
+    font-size: 50px;
+}
+
+.t-c {
+    text-align: center;
+}
+
+#header-image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border:8px solid #ffffff22
+}
+
+.name{
+    font-family: cursive;
+    color:white;
+    font-size:50px;
+    transform: rotate(-5deg);
+    position: relative;
+}
+
+.name::before, .name::after {
+    content :'';
+    width:30px;
+    height: 5px;
+    position: absolute;
+    background:white;
+    top:40px;
+    margin-left:-30px;
+}
+
+.name::after {
+    margin-left:0px;
+}
+
+.m-t20 {
+    margin-top:20px
+}
+
+
+.heading::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: rgb(255, 140, 0);
+    margin-bottom:30px;
+    border-radius: 5px;
+}
+
+.education-wrapper {
+    position: relative;
+}
+.education-wrapper::before {
+    content:'';
+    width: 2px;
+    background-color: gray;
+    position: absolute;
+    top:8px;
+    bottom:0px;
+    left:-50px;
+    
+}
+
+.education {
+    position: relative;
+    margin-bottom: 20px;
+}
+.education::before{
+    content:'';
+    width: 16px;
+    height: 16px;
+    background-color: rgb(255, 140, 0);
+    position: absolute;
+    left:-58px;
+    border-radius: 50%;
+    box-shadow:0 0 0 8px rgba(255, 171, 0, 0.4);
+}
+
+#project {
+    background: #eeeeee;
+}
+
+.project-card {
+    background-color: white;
+    padding:20px;
+}

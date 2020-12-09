@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFC300;
+    padding-top: 200px;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.wrapper {
+    padding:30px 50px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 13px -7px #000;
+}
+
+.rules {
+    margin-right:10px;
+}
+
+.heading {
+    font-family: cursive;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    padding:10px 15px;
+    background-color: #ffc300;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    border:none;
+    border-bottom: 1px dotted gray;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+}
+
+#output{
+    margin: 10px auto;
+}
+
+.output-row {
+    padding:5px
+}
